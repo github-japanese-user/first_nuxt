@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1 
+      - run: yarn global add nuxt
       - run: yarn generate
       - uses: peaceiris/actions-gh-pages@v3
         with:
