@@ -17,8 +17,11 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/first_nuxt/favicon.ico' }
     ]
+  },
+  router: {
+    base: '/first_nuxt/'
   },
   /*
   ** Global CSS
